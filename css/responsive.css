@@ -1,0 +1,20 @@
+@media(max-width: 1100px){
+    main .group{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px){
+    header .nav-bar{
+        padding: 5px 10px;
+    }
+    main .group{
+        grid-template-columns: 1fr;
+    }
+    main .group .products .bottom{
+        flex-direction: column;
+    }
+    main .group .products .bottom button{
+        width: 100%;
+    }
+}

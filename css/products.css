@@ -52,11 +52,13 @@ header .nav-bar a{
   justify-content: center;
 }
 header .nav-bar ul li:hover{
+  transition: 500ms;
   border: 1px solid #252627;
   border-radius: 50px;
   background-color: rgba(30, 30, 31, 0.116);
 }
 header .nav-bar a:hover{
+  transition: 500ms;
   color: rgba(245, 245, 245, 0.4);
 }
 main{
@@ -129,6 +131,32 @@ main .group .products .bottom button{
     -2px -2px 2px rgba(32, 16, 16, 0.349);
 }
 main .group .products .bottom button:hover{
+  transition: 500ms;
   background-color: #353738d5;
 
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #353738;
+}
+footer .social-icons{
+  margin: 20px auto;
+}
+footer .social-icons img{
+  width: 50px;
+  margin: 0 15px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 25%;
+  box-shadow: 2px 2px 6px #ffffff2f,
+  -2px -2px 6px rgba(32, 16, 16, 0.678);
+}
+footer .social-icons img:hover{
+  background-color: rgb(141, 141, 141);
+}
+footer h3{
+  font-weight: 400;
+  color: aliceblue;
+  margin: 10px auto 30px;
 }
